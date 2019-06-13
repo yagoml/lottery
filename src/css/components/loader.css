@@ -1,0 +1,53 @@
+.centered {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.pLoaderAbsolut {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.mLoaderAbsolut {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.gLoaderAbsolut {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.pLoader {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+.mLoader {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+.gLoader {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}

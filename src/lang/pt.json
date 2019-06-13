@@ -1,0 +1,17 @@
+{
+	"menu.links.inicio": "Início",
+	"menu.links.sorteios": "Sorteios",
+	"menu.links.sorteios.loteria": "Loteria",
+	"menu.links.sorteios.roletas": "Roletas",
+	"menu.links.sorteios.ticketsPremiados": "Tickets Premiados",
+	"menu.links.sorteios.roletasPremiadas": "Roletas Premiadas",
+	"menu.links.rankings": "Rankings",
+	"menu.links.rankings.nivel": "Nível",
+	"menu.links.rankings.tickets": "Tickets",
+	"menu.links.rankings.faturamento": "Faturamento",
+	"menu.links.rankings.ganhadores": "Ganhadores",
+	"menu.links.rankings.indicacoes": "Indicações",
+	"menu.links.compraTickets": "Comprar Tickets",
+	"menu.links.login": "Entrar",
+	"menu.links.cadastro": "Cadastro"
+}

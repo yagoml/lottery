@@ -1,0 +1,48 @@
+.ranking:hover {
+  transition: all ease-in-out 300ms;
+}
+.ranking:hover table {
+  background: rgba(49, 180, 4, 0.3);
+}
+.tableRanks {
+  text-align: center;
+  margin-top: 30px;
+  background: rgba(49, 180, 4, 0.3);
+}
+.tableRanks th {
+  border: none;
+  text-align: center;
+}
+.tableRanks td {
+  border: none;
+  text-align: center;
+}
+.tableRanks .table-hover > tbody > tr:hover {
+  transition: all ease-in-out 300ms;
+  background: rgba(34, 99, 12, 0.3);
+  text-shadow: 1px 1px 0 #22630C;
+}
+.sorteiosDisps .table-hover > tbody > tr:hover {
+  transition: all ease-in-out 300ms;
+  background: rgba(34, 99, 12, 0.3);
+  text-shadow: 1px 1px 0 #22630C;
+}
+.winner {
+  background: #030696;
+  color: white;
+}
+.winner:hover {
+  background: #030696 !important;
+}
+.tableRanks th {
+  background-color: #030696;
+  background: -webkit-linear-gradient(to bottom, #030696, #090A49);
+  background: -o-linear-gradient(to bottom, #030696, #090A49);
+  background: -moz-linear-gradient(to bottom, #030696, #090A49);
+  background: linear-gradient(to bottom, #030696, #090A49);
+  color: white;
+}
+.topFive {
+  font-size: 18px;
+  font-weight: bold;
+}

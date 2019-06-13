@@ -1,0 +1,23 @@
+#voucher {
+  display: none;
+  margin-bottom: 20px;
+}
+#codigoVoucher {
+  width: 300px;
+  margin: 0 auto;
+}
+#qtd {
+  display: inline-flex;
+}
+#gift {
+  display: inline-table;
+  max-width: 209px;
+  margin: 0 auto 20px auto;
+  position: relative;
+}
+#tiposPgto {
+  margin-bottom: 20px;
+}
+#usuario {
+  width: 200px;
+}

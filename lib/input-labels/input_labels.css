@@ -1,0 +1,20 @@
+.formBox, .formBoxEdit{
+    position: relative;
+    margin-bottom: 15px;
+}
+.formBox span, .formBoxEdit span{
+    position: absolute;
+    left: 30px;
+    font-size: 15px;
+    top: 7px;
+}
+.formBox input + span:hover, .formBox input:hover + span, .formBox input:active + span, .formBox input:focus + span, .activeLabel, .formBoxEdit span{
+    transition: all ease-in-out 300ms;
+    left: 20px !important;
+    top: 0 !important;
+    font-size: 12px !important;
+}
+.formBox input, .formBoxEdit input{
+    padding: 18px 5px 0px 5px;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+#canvas{
+    width: 100%;
+    height: auto;
+}
+
+#canvasContainer {
+    position: relative;
+    width: 300px;
+}
+
+#canvas {
+    z-index: 1;
+}
+
+#prizePointer {
+    position: absolute;
+    left: 245px;
+    top: 6px;
+    z-index: 999;
+}

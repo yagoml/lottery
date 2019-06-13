@@ -1,0 +1,72 @@
+header .navbar-default {
+    background-color: #030696;
+    background: -webkit-linear-gradient(to bottom, #030696, #090A49); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to bottom, #030696, #090A49); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to bottom, #030696, #090A49); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #030696, #090A49); /* Standard syntax */
+    border: 1px solid #090A49;
+    color: white;
+    min-height: 1px;
+}
+header .navbar-default .navbar-nav>li>a{
+    color: white;
+    padding: 10px 15px;
+    height: 42px;
+}
+header .navbar-default .navbar-nav>li>a:hover, header .navbar-default .navbar-nav>li>a:focus,
+header .navbar-default .navbar-nav>.open>a:hover, header .navbar-default .navbar-nav>.open>a, 
+header .navbar-default .navbar-nav>.open>a:focus, .activeLinkHeader{
+    transition: all ease-in-out 300ms;
+    background-color: rgba(49, 180, 4, 1);
+    background: -webkit-linear-gradient(to bottom, rgba(49, 180, 4, 1), rgb(34, 99, 12)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to bottom, rgba(49, 180, 4, 1), rgb(34, 99, 12)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to bottom, rgba(49, 180, 4, 1), rgb(34, 99, 12)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(49, 180, 4, 1), rgb(34, 99, 12)); /* Standard syntax */
+    color: white;
+}
+
+header .dropdown-menu{
+    background-color: rgba(49, 180, 4, 1);
+}
+header .dropdown-menu a{
+    color: white;
+}
+header .dropdown-menu>li>a:hover{
+    transition: all ease-in-out 300ms;
+    color: white;
+    text-decoration: none;
+    background-color: #22630C;
+}
+
+.green{
+    background-color: rgba(49,180,4,1);
+    background: -webkit-linear-gradient(to bottom,rgba(49,180,4,1),#22630c);
+    background: -o-linear-gradient(to bottom,rgba(49,180,4,1),#22630c);
+    background: -moz-linear-gradient(to bottom,rgba(49,180,4,1),#22630c);
+    background: linear-gradient(to bottom,rgba(49,180,4,1),#22630c);
+    color: #fff;
+}
+
+.inputSorte{
+    border-radius: 3px;
+    border: 1px solid #22630c;
+    padding: 2px 5px;
+    color: #090A4D;
+    width: 110px;
+}
+
+#formLogin{
+    margin: 0;
+}
+
+.botao-menu{
+    cursor: context-menu;
+}
+
+.drop-menu{
+    display: none;
+}
+
+.botao-menu:hover + .drop-menu, .drop-menu:hover{
+    display: block;
+}

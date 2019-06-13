@@ -1,0 +1,19 @@
+.datesFilter label > span {
+  display: inline;
+}
+.datesFilter label {
+  width: 120px;
+}
+.datesFilter input {
+  width: 100px;
+}
+.extratosTable th {
+  background: #090A49;
+  color: white;
+  text-align: center;
+  border: 1px solid #B2B0B0;
+}
+.extratosTable td {
+  text-align: center;
+  border: 1px solid #B2B0B0;
+}

@@ -1,0 +1,42 @@
+.ranking {
+  padding: 0;
+}
+.ranking ul {
+  text-align: center;
+  border: 1px solid #030696;
+  color: black;
+  list-style: none;
+}
+.topApost {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  background-color: #030696;
+  background: -webkit-linear-gradient(to bottom, #030696, #090a49);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to bottom, #030696 #090a49);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to bottom, #030696, #090a49);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, #030696, #090a49);
+  /* Standard syntax */
+}
+.topTableInscs {
+  font-weight: bold;
+  font-size: 17px;
+}
+.tableDefault {
+  text-align: center;
+}
+.tableDefault th {
+  text-align: center;
+  color: white;
+  background-color: #22630C;
+  border: 1px solid #030696;
+}
+.tableDefault .table-bordered > tbody > tr > td {
+  border: 1px solid #030696;
+}
+.tableDefault .table-bordered > tbody > tr > th {
+  border: 1px solid #030696;
+}

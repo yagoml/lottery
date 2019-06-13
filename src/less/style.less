@@ -1,0 +1,221 @@
+/*outras cores do site q n tem ainda*/
+/*A34314*/
+
+body{
+	font-size: 14px;
+	background: #D8D8D8;
+	color: black;
+
+	a:hover{
+		text-decoration: none;
+	}
+
+	table{
+		font-size: 13px;
+	}
+	table th, table td{
+		border: 1px solid #030696;
+	}
+
+	.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+		padding: 2px;
+	}
+
+	ul{
+		padding-left: 0;
+	}
+
+	.space{
+		margin: 20px 0;
+	}
+
+	.g-recaptcha div{
+		width: 100% !important;
+	}
+
+	.bread-crumb a{
+		color: white;
+	}
+
+	.sorteForms{
+		color: #030696;
+		padding: 20px 15px;
+		border: 1px solid #090A49;
+		background-color: #31B404;
+		background: -webkit-linear-gradient(to bottom,rgba(49, .680, 4, .6),rgba(34, 99, .62, .6));
+		background: -o-linear-gradient(to bottom,rgba(49, .680, 4, .6),rgba(34, 99, .62, .6));
+		background: -moz-linear-gradient(to bottom,rgba(49, .680, 4, .6),rgba(34, 99, .62, .6));
+		background: linear-gradient(to bottom,rgba(49, .680, 4, .6),rgba(34, 99, .62, .6));
+	}
+	.sorteForms a{
+		color: white;
+	}
+	.labelForm{
+		width: fit-content;
+		border: 1px solid #090A49;
+		color: #fff;
+		padding: 5.7px;
+		display: table-cell;
+		vertical-align: middle;
+
+		background-color: #030696;
+		background: -webkit-linear-gradient(to bottom,#030696,#090A49);
+		background: -o-linear-gradient(to bottom,#030696,#090A49);
+		background: -moz-linear-gradient(to bottom,#030696,#090A49);
+		background: linear-gradient(to bottom,#030696,#090A49);
+	}
+
+	.sorteForms input[type=text], .sorteForms input[type=password], .sorteForms input[type=tel], .sorteForms input[type=email], .sorteForms select{
+		padding: 5.6px;
+		font-weight: lighter;
+		border: 1px solid #090A49;
+		width: 100%;
+	}
+
+	label{
+		width: 100%;
+	}
+
+	.activeMenuLink {
+		transition: background ease-in-out 300ms;
+		font-weight: bold;
+		background: #030696;
+	}
+
+	.listMenu{
+		list-style: none;
+		background-color: #090A49;
+		width: 100%;
+		a{
+			color: #fff;
+			display: block;
+			width: 100%;
+			padding: 5px 10px;
+			&:hover, &:focus, &:active {
+				.activeMenuLink;
+			}
+		}
+	}
+
+	.listUnstyled{
+		list-style: none;
+		padding: 5px 10px;
+	}
+
+	.responseMsg{
+		display: block;
+		width: fit-content;
+		width: -moz-fit-content;
+		text-align: center;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	/* The Close Button */
+	.close {
+		color: rgba(119, 119, 119, .7);
+		float: right;
+		font-size: 15px;
+		font-weight: bold;
+		opacity: 1;
+		position: absolute;
+		top: 3px;
+		right: 3px;
+		cursor: pointer;
+
+		&:hover, &:focus {
+			color: rgba(169, 68, 66, 1);
+			text-decoration: none;
+			cursor: pointer;
+			opacity: 1;
+		}
+	}
+
+	.pLoader{
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+	}
+	.mLoader{
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+	}
+	.progress{
+		margin-bottom: 0;
+	}
+	.progress-bar{
+		color: black;
+		max-width: 100%;
+	}
+
+	.hideDrop {
+		overflow: hidden;
+		max-height: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		-moz-transition-duration: 0.3s;
+		-webkit-transition-duration: 0.3s;
+		-o-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+		-webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+		-o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+	}
+	.showDrop {
+		-moz-transition-duration: 0.3s;
+		-webkit-transition-duration: 0.3s;
+		-o-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-moz-transition-timing-function: ease-in;
+		-webkit-transition-timing-function: ease-in;
+		-o-transition-timing-function: ease-in;
+		transition-timing-function: ease-in;
+		max-height: 1000px;
+		overflow: hidden;
+	}
+
+	.openDropdown{
+		cursor:default;
+	}
+
+	.dropdownVertical {
+		li {
+			a{
+				padding-left: 30px;
+			}
+		}
+	}
+
+	#imgPreview{
+		border: 1px solid #ccc;
+		max-height: 250px;
+	}
+
+	input[type=file] {
+		display: none
+	}
+
+	/* Aparência que terá o seletor de arquivo */
+	label[for=image] {
+		background-color: #3498db;
+		border-radius: 5px;
+		color: #fff;
+		cursor: pointer;
+		padding: 6px 20px;
+		width: fit-content;
+		width: -moz-fit-content;
+		margin: 10px auto;
+	}
+
+	@smartphones: ~"only screen and (min-width: 0px) and (max-width: 479px)";
+
+	@media @smartphones {
+		.text-center-xs{
+			text-align: center !important;
+		}
+	}
+}

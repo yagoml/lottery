@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default">
+	<div class="row-fluid" style="padding:0;">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse navbar-menu" id="bs-example-navbar-collapse-1" style="padding: 0;">
+			<div class="container" style="padding: 0;">
+				<ul class="nav navbar-nav" style='width: 100%;'>
+					<% for(i=0; i < links.length; i++) { %>
+						<li <% if(links[i].right != null) { %> class='pull-right' <% } %>>
+							<% if(links[i].subLinks != null) { %>
+								<a class="botao-menu"><i class="<%= links[i].icon %>"></i> <%= links[i].title %> <span class="caret"></span></a>
+								<ul class="dropdown-menu drop-menu">
+									<% for(j=0; j < links[i].subLinks.length; j++) { %>
+										<li><a href="<%= links[i].subLinks[j].href %>"><%= links[i].subLinks[j].title %></a></li>
+									<% } %>
+								</ul>
+							<% } else { %>
+								<a href="<%= links[i].href %>"><i class="<%= links[i].icon %>"></i> <%= links[i].title %></a>
+							<% } %>
+						<li>
+					<% } %>
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>

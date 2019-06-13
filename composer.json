@@ -1,0 +1,26 @@
+{
+	"description": "Lottery Network",
+	"name": "Lottery Network",
+	"type": "project",
+	"homepage": "https://lotterynetwork.com",
+	"license": "Private",
+	"support": {
+		"web": "https://lotterynetwork.com"
+	},
+	"require": {
+		"php": ">=5.2.4",
+		"kevinlebrun/slug.php": "1.*"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*"
+	},
+    "autoload": {
+        "psr-4": {
+			"Models\\": "application/models/Models/",
+			"Repository\\": "application/models/Repository/",
+			"DAOs\\": "application/models/DAOs/",
+			"AbstractDAOs\\": "application/models/AbstractDAOs/",
+			"RN\\": "application/models/RN/"
+		}
+    }
+}

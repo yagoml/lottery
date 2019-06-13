@@ -1,0 +1,36 @@
+{
+	"en": {
+		"inicio": "Home",
+		"sorteios": "Sorts",
+		"sorteios.loteria": "Lottery",
+		"sorteios.roletas": "Roletas",
+		"sorteios.ticketsPremiados": "Tickets Premiados",
+		"sorteios.roletasPremiadas": "Roletas Premiadas",
+		"rankings": "Rankings",
+		"rankings.nivel": "Nível",
+		"rankings.tickets": "Tickets",
+		"rankings.faturamento": "Faturamento",
+		"rankings.ganhadores": "Ganhadores",
+		"rankings.indicacoes": "Indicações",
+		"compraTickets": "Comprar Tickets",
+		"login": "Entrar",
+		"cadastro": "Cadastro"
+	},
+	"pt": {
+		"inicio": "Início",
+		"sorteios": "Sorteios",
+		"sorteios.loteria": "Loteria",
+		"sorteios.roletas": "Roletas",
+		"sorteios.ticketsPremiados": "Tickets Premiados",
+		"sorteios.roletasPremiadas": "Roletas Premiadas",
+		"rankings": "Rankings",
+		"rankings.nivel": "Nível",
+		"rankings.tickets": "Tickets",
+		"rankings.faturamento": "Faturamento",
+		"rankings.ganhadores": "Ganhadores",
+		"rankings.indicacoes": "Indicações",
+		"compraTickets": "Comprar Tickets",
+		"login": "Entrar",
+		"cadastro": "Cadastro"
+	}
+}
